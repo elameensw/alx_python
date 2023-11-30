@@ -1,4 +1,4 @@
-#!/usr/bin/python3
 def convert_to_celsius(fahrenheit):
-    celsius = (5/9) * (fahrenheit - 32)
-    return celsius
+    result = ((fahrenheit - 32)/9)* 5
+    round_result = round(result, 2)
+    return round_result
