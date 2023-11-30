@@ -1,5 +1,3 @@
 def reverse_string(string):
-    reversed_string = ""
-    for char in string:
-        reversed_string = char + reversed_string
-    return reversed_string
+    revers = string[::-1]
+    return revers
